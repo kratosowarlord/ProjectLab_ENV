@@ -1,0 +1,132 @@
+
+<html>
+<head>
+<title>Grid box</title>
+
+<style>
+
+* {box-sizing: border-box;align:center;}
+
+.wrapper {
+    border: 2px solid 
+    border-radius: 5px;
+    align:center;
+    
+     display: grid;
+     grid-template-columns: repeat(8, 80px);
+     grid-template-rows: repeat(8, 80px);
+}
+
+body {
+background-image:url("Columns.jpg")
+
+}
+
+.wrapper > div {
+    border: 2px solid grey;
+    border-radius: 1px;
+    background-color:  #fadbd8;
+    padding: 1em;
+    color: grey;
+}
+.wrapper {
+  display: grid;
+  align:center;
+  grid-template-columns: repeat(8, 80px);
+  grid-template-rows: 80px 80px;
+
+h1 {
+font-family: "Times New Roman", Times, serif;
+}
+
+p {
+font-size: 10px;
+}
+
+body {
+background-image:url("building.jpg")
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<h1> This is the grid box that represents the Conway's Game of life</h1>
+
+<p>This Grid box reprents the reproduction stage of Conway's game of life
+where if exactly 3 cells are alive then the neighbouring cell also becomes alive. 
+This is known as the<b> <div style="color:red">Reproduction Stage.</div></b></p> 
+
+
+<div class="wrapper">
+   <div>0</div>
+   <div>1</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>1</div>
+   <div>1</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div style="color:red"><b>1</b></div>
+   <div>1</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>1</div>
+   <div>0</div>
+   <div>1</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>1</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>1</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>1</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>0</div>
+   <div>1</div>
+   
+   
+</div>
+</body>
+</html>
